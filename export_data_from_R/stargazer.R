@@ -1,0 +1,29 @@
+library(xtable)
+library(stargazer)
+
+fit1 <- lm(mpg ~ cyl + disp, mtcars)
+fit2 <- aov(mpg ~ am + vs, mtcars)
+
+fit_table1 <- xtable(fit1)
+fit_table2 <- xtable(fit2)
+
+print(fit_table1, type='html', file = 'fit_table1.html')
+
+stargazer(fit1, type = 'html', 
+          dep.var.labels = 'mpg',
+          covariate.labels = c('cyl', 'disp'), out = 'model1.html')
+
+# -----------------------------------------
+NA.position <- function(x, y) {
+  sum(abs(is.na(x) - is.na(y))) == 0
+}
+
+
+v1  <- c(1, 4, NA)
+v2  <- c(3, 4, NA)
+NA.position(v1, v2)
+sum(abs(is.na(v1) - is.na(v2)))
+
+
+
+

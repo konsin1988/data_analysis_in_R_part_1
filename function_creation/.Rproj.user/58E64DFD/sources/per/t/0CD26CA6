@@ -1,0 +1,27 @@
+{
+    "id": "0CD26CA6",
+    "path": "~/r_lang/data_analisis_in_R/function_creation/rbind_many_files.R",
+    "project_path": "rbind_many_files.R",
+    "type": "r_source",
+    "hash": "1171410136",
+    "contents": "",
+    "dirty": false,
+    "created": 1731497989265.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "43,1",
+        "scrollLine": "37"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1731505307,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1731505307088,
+    "read_only": false,
+    "read_only_alternatives": []
+}
